@@ -1,0 +1,14 @@
+.finalSaleBox {
+  color: #222;
+  font-size: 13px;
+  border: 1px solid #CB4B10;
+  border-radius: 4px;
+  padding: 5px 10px;
+  min-width: 230px;
+  max-width: 100%;
+}
+
+  .finalSaleBox__title {
+    color: #CB4B10;
+    font-weight: bold;
+  }

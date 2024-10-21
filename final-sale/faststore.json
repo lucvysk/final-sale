@@ -1,0 +1,11 @@
+{
+  "$schema": "https://unpkg.com/@vtex/fsp-config/faststore.schema.json",
+  "stores": {
+    "vysk": {
+      "checkout": {
+        "path": "./vysk/checkout",
+        "port": 3001
+      }
+    }
+  }
+}

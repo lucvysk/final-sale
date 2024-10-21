@@ -1,0 +1,21 @@
+{
+  "name": "final-sale",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "biome check ."
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@faststore/cli": "3.0.135",
+    "@vtex/checkout": "^0.5.1",
+    "@vtex/fsp-cli": "0.15.8",
+    "@vtex/sales-app": "3.10.1",
+    "turbo": "2.2.2"
+  },
+  "packageManager": "yarn@1.22.22"
+}
